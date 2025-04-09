@@ -51,8 +51,21 @@ This Power BI dashboard provides a dynamic analysis of a company’s financial p
   - **DAX Measure:** `PnlVAHAComparison`
 
 ---
-
 ## 📊 **Page 3: P&L Simulator**
 ### **Key Insights:**
 - **Scenario-Based Analysis:** Simulate the impact of changes in revenue, costs, and expenses on your bottom line.
+- **Real-time Adjustments:** Modify slicers to instantly see the effects of different financial scenarios.
+
+### **Visualizations:**
+- **Revenue Sensitivity** (Line Chart)
+  - Simulates the effect of revenue changes on income.
+  - **DAX Measure:** `RevenueSensitivityImpact`
+
+- **Cost & Expense Scenario** (Clustered Column Chart)
+  - Displays how varying costs and expenses impact net income.
+  - **DAX Measure:** `CostExpenseScenarioAnalysis`
+
+- **P&L Simulation Results** (Table)
+  - Shows the outcome of different financial scenarios based on changing parameters.
+  - **DAX Measure:** `SimulatedPnlResults`
 
